@@ -1,0 +1,36 @@
+section
+{
+    height: 100vh;
+    background: url(../img/stones.jpg);
+    background-size: 100% 100%;
+}
+#aktitle
+{
+    position: absolute;
+    color: white;
+}
+#title
+{
+    position: absolute;
+    color: white;
+    margin-top:10%;
+    margin-left: 30%;
+
+}
+.beg
+{
+    margin-top:90vh;
+    margin-left: 50%;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+}
+.qtxt
+{
+    text-align: center;
+    font-size: 5vh;
+}
+#qans1
+{
+    margin-top: 10%;
+}
