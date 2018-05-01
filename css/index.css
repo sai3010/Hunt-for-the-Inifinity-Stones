@@ -20,17 +20,38 @@ section
 .beg
 {
     margin-top:90vh;
-    margin-left: 50%;
+    margin-left: 45%;
     cursor: pointer;
     color: white;
     position: absolute;
+    font-size: 2em;
 }
 .qtxt
 {
     text-align: center;
     font-size: 5vh;
+    color: white;
 }
 #qans1
 {
     margin-top: 10%;
+    color: white !important;
+}
+#qans3
+{
+    color: white !important;
+}
+.q1
+{
+    height: 100vh;
+}
+.q2,.q3,.q1
+{
+    background: url(../img/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.title
+{
+    color: white !important;
 }
