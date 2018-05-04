@@ -1,7 +1,8 @@
+
 section
 {
     height: 100vh;
-    background: url(../img/stones.jpg);
+    background: url(../img/home.png);
     background-size: 100% 100%;
 }
 #aktitle
@@ -19,12 +20,17 @@ section
 }
 .beg
 {
-    margin-top:90vh;
-    margin-left: 45%;
+    margin-top:30vh;
+    margin-left: 40%;
     cursor: pointer;
+    border-radius: 25px;
     color: white;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    background-color: #BD0A0E;
     position: absolute;
-    font-size: 2em;
+    font-size: 3em;
+    font-family: 'Boogaloo', cursive;
 }
 .qtxt
 {
@@ -58,4 +64,9 @@ img:hover
 .title
 {
     color: white !important;
+}
+.logo_img
+{
+    height: 20vh;
+    width: auto;
 }

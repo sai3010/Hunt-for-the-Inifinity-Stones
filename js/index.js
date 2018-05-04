@@ -1,11 +1,16 @@
 function check()
 {
 var ans=document.getElementById("qans1").value.toLowerCase();
-alert(ans);
+// alert(ans);
 if(ans.match("brooklyn99") || ans.match("brooklyn 99"))
 {
     alert("Correct!! You will be redirected to the next question");
     window.location="question2.html";
+}
+else
+{
+    alert("Try again for us to not judge you :/ ")
+    window.location="question1.html";
 }
 }
 function check4()
@@ -15,6 +20,11 @@ function check4()
     {
         alert("Correct!! You will be redirected to the next question");
         window.location="question4.html";
+    }
+    else
+    {
+    alert("Try again for us to not judge you :/ ")
+    window.location="question1.html";
     }
 
 }
