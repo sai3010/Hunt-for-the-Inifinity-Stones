@@ -18,3 +18,8 @@ function check4()
     }
 
 }
+function corr()
+{
+    alert("Correct!! You will be redirected to the next question");
+    window.location="question3.html";
+}

@@ -51,6 +51,10 @@ section
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+img:hover
+{
+    cursor: pointer !important;
+}
 .title
 {
     color: white !important;
